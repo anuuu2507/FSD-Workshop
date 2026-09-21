@@ -30,7 +30,7 @@ class Student {
 }
 console.log("\n--- 1. Class and Constructor ---");
 let student1 = new Student(
-    "Moulika",
+    "Anu",
     90,
     "CSE (AI & ML)",
     101
@@ -55,7 +55,7 @@ class AIMLStudent extends Student {
     }
 }
 let student2 = new AIMLStudent(
-    "Anu",
+    "Mouli",
     85,
     "CSE (AI & ML)",
     102

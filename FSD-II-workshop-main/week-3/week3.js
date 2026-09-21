@@ -24,11 +24,11 @@ class Student {
     }
 }
 console.log("\n--- 1. Class and Constructor ---");
-let student1 = new Student("Moulika", 90, "CSE (AI & ML)", 101);
+let student1 = new Student("Anu", 90, "CSE (AI & ML)", 101);
 student1.displayDetails();
 console.log("\n--- 2. Public Member ---");
 console.log("Public Student Name:", student1.studentName);
-student1.studentName = "Moulika Anumula";
+student1.studentName = "Anu Kambala";
 console.log("Updated Name:", student1.studentName);
 console.log("\n--- 3. Private Member ---");
 console.log("Private Marks accessed using method:", student1.getMarks());
@@ -38,7 +38,7 @@ class AIMLStudent extends Student {
         console.log("Protected Department:", this.department);
     }
 }
-let student2 = new AIMLStudent("Anu", 85, "CSE (AI & ML)", 102);
+let student2 = new AIMLStudent("Mouli", 85, "CSE (AI & ML)", 102);
 student2.displayDepartment();
 console.log("\n--- 5. Readonly Member ---");
 console.log("Readonly Roll Number:", student1.rollNumber);

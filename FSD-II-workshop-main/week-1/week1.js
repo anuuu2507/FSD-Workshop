@@ -1,7 +1,7 @@
 "use strict";
 console.log("===== WEEK 1: TYPESCRIPT BASICS =====");
 console.log("\n--- 1. Simple Types ---");
-let studentName = "Moulika";
+let studentName = "Anu";
 let age = 20;
 let marks = 92.5;
 let isStudent = true;

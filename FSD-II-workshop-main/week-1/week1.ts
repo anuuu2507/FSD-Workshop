@@ -1,6 +1,6 @@
 console.log("===== WEEK 1: TYPESCRIPT BASICS =====");
 console.log("\n--- 1. Simple Types ---");
-let studentName: string = "Moulika";
+let studentName: string = "Anu";
 let age: number = 20;
 let marks: number = 92.5;
 let isStudent: boolean = true;
@@ -46,7 +46,7 @@ console.log("Breadth: 5");
 console.log("Area of Rectangle:", area);
 console.log("\n--- 6. Student Details ---");
 let rollNumber: number = 101;
-let studentFullName: string = "Moulika";
+let studentFullName: string = "Anu";
 let department: string = "CSE (AI & ML)";
 let active: boolean = true;
 console.log("Roll Number:", rollNumber);

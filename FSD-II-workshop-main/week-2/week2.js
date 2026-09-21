@@ -18,8 +18,8 @@ function displayStudent(name, age) {
         console.log("Age: Not Provided");
     }
 }
-displayStudent("Moulika", 20);
-displayStudent("Anu");
+displayStudent("Anu", 20);
+displayStudent("Moulika");
 console.log("\n--- 3. Default Parameter ---");
 function greet(name, message = "Welcome to TypeScript") {
     console.log(name + ", " + message);
@@ -59,5 +59,5 @@ const studentResult = (name, marks) => {
         return name + " has Failed";
     }
 };
-console.log(studentResult("Moulika", 85));
+console.log(studentResult("Anu", 85));
 console.log("\n===== WEEK 2 COMPLETED SUCCESSFULLY =====");
